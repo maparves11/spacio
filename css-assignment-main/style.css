@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1512px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+ul{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar{
+    padding-top: 20px;
+    /* left: -401px;
+    padding-right: 0; */
+    height: 105px;
+    border-bottom: 1px solid black;  
+    display:flex;
+    justify-content: space-between;
+}
+/* .group91{
+    width: 1413.24px;
+    height: 49px;
+    top: -247;
+    left: -367 px;
+} */
+nav{
+    display: block;
+}
+
+.img1{
+    padding-top: 12px;
+    padding-left: 8px;
+    width: 200px;
+    height: 38.64px;
+    gap: 4.8px;
+}
+
+.buy{
+    padding:20px;
+    gap: 210px;
+
+}
+
+
+/* .buy   li a:nth-child(3){
+    word-spacing: none;
+} */
+
+
+.buy li {
+    display:inline;
+    width: 280px;
+    height: 27px;
+    top: -236px;
+    left: 250px;
+    gap: 210px;
+    width:50;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.buy li:hover{
+    text-decoration: underline;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+
+.line li{
+    display: inline;
+    /* padding-left: 20px; */
+    /* position: relative; */
+    padding: 0px 20px;
+
+}
+
+.login{
+    width: 114px;
+    height: 49px;
+    border-radius: 30px;
+    top: -247px;
+    left: 690px;
+    background-color: #f1f1f1;
+    padding:15px 28px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    background-color: #000;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style:22px;
+  line-height:26.63px;
+  align-items: center;
+  color: aliceblue;
+  width: 167px;
+  height: 49px;
+  border-radius:30px;
+  padding: 11px 28px 11px 28px;
+  gap: 6px;
+
+
+}
+.line .img2{
+    /* padding: 1px 20px 1px 8px; */
+    width: 36px;
+    height: 36px;
+    /* padding-right: 15px; */
+    top: 25px;
+    left: 1010px;
+
+}
+
+
+.hero{
+    /* width: 1504px; */
+    height: 760px;
+    background-image: url(images/Rectangle\ 1.png);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+
+.find{
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 1160px;
+height: 344px;
+top: 193px;
+left: 166px;
+gap: 0px;
+border-radius:10px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+align-items: center;
+
+}
+
+.find h1 {
+    
+    
+    width: 373px;
+    height: 54px;
+    padding-top: 40px;
+    margin-left: 450px;
+    /* padding-left:4px; */
+
+    /* top: 237px;
+    left:550px; */
+
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight:500;
+    line-height: 54.46px;
+    text-align: center;
+
+}
+
+#country{
+width: 222px;
+height: 50px;
+margin-left:10px;
+border-radius: 10px;
+padding-left:10px;
+}
+
+.Payment{
+    margin-top: 50px;
+    margin-left:125px;
+}
+.how{
+    display: flex;
+}
+.how h3{
+    width: 702px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left:70px;
+    border-radius: 8px;
+    background-color: #eee1e1;
+    text-align: center;
+    padding-top: 12px;
+}
+.how h4{
+    width: 222px;
+    height: 49px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 84px;
+    border-radius: 30px;
+    background-color: #00ebc7;
+    padding-top: 12px;
+
+}
+
+.why{
+    position: absolute;
+    width: 183px;
+    height: 49px;
+    margin-top: 631px;
+    margin-left: 654px;
+    border: 1.5px solid white;
+    border-radius: 30px;
+    text-decoration: underline;
+    text-align: center;
+    padding: 11px 28px;
+    gap: 10px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.yello{
+    height: 370px;
+    background-color: #fde24f;
+    border: 1px 0px solid  black;
+}
+
+.Fees{
+    position: absolute;
+    width: 582px;
+    height: 41px;
+    margin-top: 80px;
+    margin-left: 469px;
+    font-family: Inter;
+font-size: 34px;
+font-weight: 500;
+line-height: 41.15px;
+text-align: center;
+font-family: "Inter", sans-serif;
+
+}
+
+.yello img{
+    width: Hug (1,220px)px;
+height: Hug (120px)px;
+margin-top: 169px;
+margin-left: 146px;
+gap: 100px;
+opacity: 0px;
+
+}
+.Features{
+height: 680px;
+position: relative;
+
+}
+
+.Features h3 {
+width: 473px;
+height: 41px;
+margin-top: 80px;
+margin-left: 65px;
+font-family: "Inter", sans-serif;
+font-size: 34px;
+font-weight: 500;
+line-height: 41.15px;
+text-align: left;
+
+}
+.Features h2{
+width:227px;
+height:49px;
+margin-top: 150px;
+margin-left: 641px;
+padding: 11px 28px ;
+gap: 10px;
+border-radius: 30px;
+border: 1.5px solid black;
+text-align: center;
+text-decoration: underline;
+
+}
+
+.group-70{
+display: flex;
+width: 1180px;
+height: 280px;
+margin-top:200px;
+margin-left: 6px;
+border: 1px ;
+
+}
+
+/* .Newbie{
+width: 1180px;
+height: 280px;
+top: 200px;
+ ;left: 166px;
+border: 1px
+
+} */
+
+.Newbie img{
+    width: 220px;
+height: 124px;
+margin-top: 5px;
+margin-left: 201px;
+
+
+}
+.Newbie h4{
+    width: 273px;
+    height: 29px;
+    margin-top: 29px;
+    margin-left: 185px;
+    font-family: "Inter", sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 29.05px;
+text-align: center;
+
+     
+}
+.Newbie p{
+    font-family: "Inter", sans-serif;
+    width: 300px;
+height: 2px;
+margin-top: 45px;
+margin-left: 166px;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.2px;
+text-align: center;
+
+}
+
+.Newbie h5{
+    width: 298px;
+height: 19px;
+margin-top: 96px;
+margin-left: 150px;
+font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.36px;
+text-align: center;
+line-height: 19.36px;
+text-decoration: underline;
+}
+
+.Frame17{
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    border-top: 2px solid black;
+margin-top: 100px;
+margin-left: 5px;
+    
+}
+
+.buy h1{
+    width: 62px;
+    height: 41px;
+    /* margin-top: 75px;
+    margin-left: 65px; */
+    
+    
+}
+.sellh1{
+    width: 62px;
+height: 41px;
+margin-top: 75px;
+margin-left: 65px;
+font-family: "Inter" sans-serif;
+font-size: 34px;
+font-weight: 500;
+line-height: 41.15px;
+text-align: left;
+
+}
+.View{
+width: 237px;
+height: 49px;
+margin-top: 50px;
+margin-bottom: 10px;
+margin-left: 180px;
+padding: 11px 28px;
+gap: 10px;
+background-color: black;
+color: aliceblue;
+border-radius: 15px ;
+text-decoration: underline;
+font-family: "Inter", sans-serif;
+font-size: 22px;
+font-weight: 500;
+line-height: 26.63px;
+text-align: center;
+
+
+    
+}
+
+.buy{
+    width: 756px;
+    gap: 36px;
+}
+
+.Paypal{
+    display: flex;
+    justify-content: space-between;
+    width: 626px;
+height: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-top: 70px;
+}
+
+.con{
+    margin-top: 50px;
+}
+.Sell{
+    border-left: 1px solid black;
+}
+
+/* this is Rectangle 11 */
+.Rectangle11{
+    position: relative;
+    margin-top: 140px;
+    height: 600px;
+    border: 0px 0px 1px 0px black;
+    background-color: #CFBAFF;    
+}
+.sign{
+    position: absolute;
+    width: 1372px;
+    height: 182px;
+    margin-top: 161px;
+    margin-left: 70px;
+font-family: "Inter" sans-serif;
+font-size: 75px;
+font-weight: 500;
+line-height: 90.77px;
+text-align: center;
+
+    
+}
+
+.get {
+position: absolute;
+width:265px;
+height: 69px;
+top: 470px;
+left: 623.5px;
+padding: 15px 45px;
+gap: 10px;
+border-radius: 30px;
+background-color: black;
+color: aliceblue;
+font-family: "Inter" sans-serif ;
+font-size: 32px;
+font-weight: 500;
+line-height: 38.73px;
+text-align: center;
+
+
+}
+
+/* this is footer */
+
+.footer{
+    background-color: #000;
+height: 500px;
+border-top: 1px solid white;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-between;
+}
+.spacio img {
+    width: 137.51px;
+height: 36.39px;
+margin-top: 110px;
+margin-left: 135px;
+
+}
+
+.Product{
+    width: 161px;
+    height: 312px;
+    margin-top: 110px;
+    gap: 32px;
+    opacity: 0px;
+    
+}
+
+.Product h1 {
+    width: 179px;
+    height: 34px;
+    font-family: "inter" sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 33.89px;
+text-align: left;
+color: #ffffff;
+padding-bottom: 20px;
+margin-bottom: 40px;
+
+}
+
+.Product h6 {
+    width: 134px;
+height: 24px;
+font-size: 20px;
+font-weight: 600;
+line-height: 24.2px;
+text-align: left;
+color: white;
+font-family: "inter" sans-serif;
+
+
+}
+
+.copyright{
+height: 65px;
+border-top: 1px solid white;
+background-color: #000;
+
+}
+.copyright2{
+    width: 1417px;
+    margin-left: 48px; 
+    font-family:"inter", sans-serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 15.73px;
+text-align: center;
+color: #ffffff;
+padding-top: 10px;
+
+}
